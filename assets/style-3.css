@@ -83,3 +83,54 @@ a:hover {
           color: #111;
           text-decoration: underline;
     } */
+
+/* Button styles */
+.btn-proposal {
+  background-color: #007bff;
+  color: white !important;
+  text-decoration: none !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: 2px solid #007bff;
+  display: inline-block;
+}
+
+.btn-proposal:hover,
+.btn-proposal:focus,
+.btn-proposal:active,
+.btn-proposal:visited {
+  background-color: #0056b3;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-decoration: none !important;
+  border-color: #0056b3;
+}
+
+.btn-proposal:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Poetry styles */
+.poetry-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.poem {
+  font-family: Georgia, serif;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.poem p {
+  margin-bottom: 2rem;
+}
+
+.meta {
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}

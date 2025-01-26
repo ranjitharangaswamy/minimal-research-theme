@@ -6,8 +6,8 @@
 a:hover {
     /* font-weight: 400; */
     text-decoration: none;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
     /* color: #444; */
 }
 
@@ -83,3 +83,28 @@ a:hover {
           color: #111;
           text-decoration: underline;
     } */
+
+/* Adding new styles for navigation and layout */
+body {
+    padding-top: 70px; /* Account for fixed navbar */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.position-sticky {
+    position: sticky;
+    top: 80px;
+}
+
+.contact-links a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-links a:hover {
+    color: #000;
+}
